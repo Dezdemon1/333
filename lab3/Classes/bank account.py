@@ -14,7 +14,7 @@ class Account:
             print("Withdrawing", take, "and your balance:", self.balance-take)
             self.balance = self.balance-take
 
-account = Account("Bekarys", 150000)
+account = Account("Kubrat", 150000)
 account.withdraw(20000)
 account.withdraw(160000)
 account.deposit(24, 12.5)
